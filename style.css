@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    width: 100vw;
+}
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 72px 0 72px;
+    height: 10vh;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px #24242426;
+}
+
+.figuras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.figuras figure {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    font-weight: bold;
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 26%;
+    padding-bottom: 32px;
+}
+
+.verde {
+    color: #5CA720
+}
+
+
+@media (max-width:500px) {
+    .promo{
+        margin: 0 32px 0 32px
+    }
+    .figuras {
+        display: flex;
+        justify-content: left;
+        padding-left: 32px;
+    }
+
+    .figuras figure {
+        width: 50%;
+        height: 200px;
+        font-size: 12px;
+        justify-content: space-between;
+
+    }
+
+    .figuras figure img {
+        width: 80%;
+    }
+
+}
+
+
+/* guilherme */
+header{
+    padding: 16px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+header figure{
+display: flex;
+justify-content: space-around;
+width: 10vw;
+align-items: center;
+}
+
+header figure img{
+    width: 1.5vw;
+}
+
+header div img{
+    width: 1.0vw;
+}
+
+.img1{
+    width: 100%;
+}
+
+@media(max-width:500px) {
+    .div1{
+        width: 40vw;
+        justify-content: center;
+    }
+    header div img{
+        width: 4vw;
+    }
+
+    header figure{
+        width: 20vw;
+    }
+
+    .part1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input > *{
+        padding: 8px
+
+    }
+    .botao{
+        padding: 16px;
+        width: 500px;
+    }
+}
+
+/* gabriel */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+footer {
+  background: #f9f9f9;
+  width: 100vw;
+  font-family: "Lato", sans-serif;
+}
+
+.part1 {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.input{
+    display: flex;
+
+}
+
+.input p {
+  font-weight: 600;
+}
+
+.input button {
+  background: #5ca720;
+  border: none;
+  height: 34px;
+  width: 100px;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+}
+
+.input button a {
+  text-decoration: none;
+  color: white;
+}
+
+.input input {
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  border-color: #d9d9d9;
+  padding: 5px;
+  outline: none;
+}
+
+hr {
+  border-color: #a5a1a1;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
